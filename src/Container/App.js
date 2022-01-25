@@ -1,7 +1,13 @@
 import React from "react";
+import Mainroute from "../Routes/Mainroute";
+import MainContainer from "./MainContainer";
 
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <MainContainer>
+      <Mainroute />;
+    </MainContainer>
+  );
 }
 
 export default App;
